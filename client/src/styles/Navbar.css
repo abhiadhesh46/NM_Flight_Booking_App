@@ -1,0 +1,35 @@
+.navbar{
+
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    top: 0vh;
+    z-index: 10;
+    background-color: #72444b00 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+    box-shadow: rgba(93, 93, 197, 0.2) 0px 7px 29px 0px;
+}
+
+.navbar h3{
+    color: #008080;
+    ;
+}
+
+.nav-options{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-options p{
+    margin: 0;
+    color: #4f6884;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-options p:hover{
+    color: #008080;
+}
